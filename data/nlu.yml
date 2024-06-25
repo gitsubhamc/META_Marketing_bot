@@ -1,0 +1,111 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: provide_project_info
+  examples: |
+    - Here is the URL for the project: [http://example.com/project](http://example.com/project)
+    - The project is located at [http://example.com](http://example.com)
+    - You can find the project details here: [http://example.com](http://example.com)
+    - The project is called "Zahara By Bren" and is located off Sarjapur Road. It includes luxury 3BHK apartments with sizes ranging from 1668 to 1792 sq.ft. Prices start from 2.51 crore onwards and key amenities include 2 clubhouses, a multi-purpose court, a co-working café, a swimming pool, a fitness studio, and a beach volleyball court.
+    - I'm working on a project named "Zahara By Bren". It's a luxury apartment complex off Sarjapur Road, offering 3BHK units from 1668 to 1792 sq.ft., priced starting at 2.51 crore. The amenities include 2 clubhouses, a swimming pool, a fitness studio, and more.
+    - Let me share the project details with you. It's called "Zahara By Bren", located off Sarjapur Road. This luxury apartment project offers 3BHK units ranging from 1668 to 1792 sq.ft. Prices begin at 2.51 crore, and the key amenities include a swimming pool, fitness studio, and 2 clubhouses.
+    - The project is "Zahara By Bren", located off Sarjapur Road. It includes luxury 3BHK apartments, sizes from 1668 to 1792 sq.ft., and prices start from 2.51 crore. Key amenities include 2 clubhouses, a multi-purpose court, a co-working café, a swimming pool, a fitness studio, and a beach volleyball court.
+    - I have a project called "Zahara By Bren". It's a luxury apartment project off Sarjapur Road with 3BHK units from 1668 to 1792 sq.ft., priced starting at 2.51 crore. Amenities include 2 clubhouses, a swimming pool, and a fitness studio.
+    - My project is "Zahara By Bren", located off Sarjapur Road. It's a luxury apartment complex offering 3BHK units from 1668 to 1792 sq.ft., priced starting at 2.51 crore. The amenities include a swimming pool, fitness studio, and more.
+    - The project name is "Zahara By Bren". It's a luxury apartment complex off Sarjapur Road, offering 3BHK units from 1668 to 1792 sq.ft., with prices starting at 2.51 crore. The key amenities include 2 clubhouses, a swimming pool, and a fitness studio.
+    - Here are the project details: "Zahara By Bren", located off Sarjapur Road. This luxury apartment project offers 3BHK units ranging from 1668 to 1792 sq.ft. Prices begin at 2.51 crore, and the key amenities include a swimming pool, fitness studio, and 2 clubhouses.
+    - The project is called "Zahara By Bren" and it's located off Sarjapur Road. It offers luxury 3BHK apartments, with sizes ranging from 1668 to 1792 sq.ft., and prices starting at 2.51 crore. Key amenities include 2 clubhouses, a multi-purpose court, a co-working café, a swimming pool, a fitness studio, and a beach volleyball court.
+    - I'm working on a project named "Zahara By Bren". It's a luxury apartment complex off Sarjapur Road, offering 3BHK units from 1668 to 1792 sq.ft., priced starting at 2.51 crore. The amenities include 2 clubhouses, a swimming pool, a fitness studio, and more.
+    - Let me share the project details with you. It's called "Zahara By Bren", located off Sarjapur Road. This luxury apartment project offers 3BHK units ranging from 1668 to 1792 sq.ft. Prices begin at 2.51 crore, and the key amenities include a swimming pool, fitness studio, and 2 clubhouses.
+    - The project is "Zahara By Bren", located off Sarjapur Road. It includes luxury 3BHK apartments, sizes from 1668 to 1792 sq.ft., and prices start from 2.51 crore. Key amenities include 2 clubhouses, a multi-purpose court, a co-working café, a swimming pool, a fitness studio, and a beach volleyball court.
+    - I have a project called "Zahara By Bren". It's a luxury apartment project off Sarjapur Road with 3BHK units from 1668 to 1792 sq.ft., priced starting at 2.51 crore. Amenities include 2 clubhouses, a swimming pool, and a fitness studio.
+    - My project is "Zahara By Bren", located off Sarjapur Road. It's a luxury apartment complex offering 3BHK units from 1668 to 1792 sq.ft., priced starting at 2.51 crore. The amenities include a swimming pool, fitness studio, and more.
+    - The project name is "Zahara By Bren". It's a luxury apartment complex off Sarjapur Road, offering 3BHK units from 1668 to 1792 sq.ft., with prices starting at 2.51 crore. The key amenities include 2 clubhouses, a swimming pool, and a fitness studio.

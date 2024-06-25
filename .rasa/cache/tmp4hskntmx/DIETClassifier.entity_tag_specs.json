@@ -1,0 +1,20 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-http",
+      "2": "I-http",
+      "3": "L-http",
+      "4": "U-http",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-http": 1,
+      "I-http": 2,
+      "L-http": 3,
+      "U-http": 4,
+      "O": 0
+    },
+    "num_tags": 5
+  }
+]

@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+- story: greet path
+  steps:
+  - intent: greet
+  - action: action_greet
+
+- story: provide project info path
+  steps:
+  - intent: provide_project_info
+  - action: action_scrape_url
+

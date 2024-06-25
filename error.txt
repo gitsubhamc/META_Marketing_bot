@@ -1,0 +1,3 @@
+COMING INSIDE-------------------------------->
+INSIDE SCRAPE URL
+EXCEPTION IN OPENAI HIT---->'charmap' codec can't encode character '\u20b9' in position 264: character maps to <undefined>

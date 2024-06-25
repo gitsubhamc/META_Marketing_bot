@@ -1,0 +1,48 @@
+version: "3.1"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - provide_project_info
+  - goodbye
+  - bot_challenge
+
+slots:
+  project_name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+
+
+forms:
+  project_form:
+    required_slots:
+    - project_name
+    
+
+responses:
+  utter_greet:
+    - text: "Hello! Welcome to the Facebook Ad Campaign Creator. I'm here to help you create an ad campaign for your property. Shall we get started?"
+
+  utter_ask_project_name:
+    - text: "What is the name of the project?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_goodbye:
+    - text: "hi checked"
+  
+  utter_iamabot:
+    - text: "utter_iamabot"
+
+actions:
+  - action_greet
+  - action_scrape_url
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
